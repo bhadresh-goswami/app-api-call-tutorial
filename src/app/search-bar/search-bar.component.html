@@ -1,0 +1,4 @@
+<!-- <input class="form-control" (input)="onInput($event)"> -->
+<form (submit)="onFormSubmit($event)">
+  <input type="text" (input)="term = termValue.value" #termValue />
+</form>
